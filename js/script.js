@@ -1,17 +1,22 @@
 let i = 1;
+let container = document.querySelector('div.fizz-buzz-container');
 
 for (i; i <= 100; i++) {
     if (i % 3 === 0 && i % 5 === 0) {
-      console.log("FizzBuzz");
+        let elemet = `<div class="box fizz-buzz-box">FizzBuzz</div>`;
+        container.innerHTML += elemet 
     } 
     else if (i % 3 === 0) {
-      console.log("Fizz");
+        let elemet = `<div class="box fizz-box">Fizz</div>`;
+        container.innerHTML += elemet 
     } 
     else if (i % 5 === 0) {
-      console.log("Buzz");
+        let elemet = `<div class="box buzz-box">Buzz</div>`;
+        container.innerHTML += elemet 
     } 
     else {
-      console.log(i);
+        let elemet = `<div class="box element-box">${i}</div>`;
+        container.innerHTML += elemet 
     }
   }
   

@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: #083B4C;
+    width: 100%;
+    text-align: center;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    padding-top: 2.5rem;
+    
+}
+
+.fizz-buzz-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.box {
+    margin: 1rem;
+    border: 1px solid white;
+    padding: 1.25rem;
+    padding-top: 3.125rem;
+    height: 7.5rem;
+    width: 7.5rem;
+    font-size: larger;
+}
+
+.element-box {
+    background-color: #1389B2;
+}
+
+.fizz-box {
+    background-color: #0CD6A1;
+}
+
+.buzz-box {
+    background-color: #FFD166;
+}
+
+.fizz-buzz-box {
+    background-color: #F0466F;
+}
